@@ -4,40 +4,10 @@ import { Quote, Heart } from 'lucide-react';
 const Quotes = () => {
   const testimonials = [
     {
-      quote: "Watching Mariem and Moussab together is like witnessing pure magic. Their love radiates joy and inspires everyone around them.",
-      author: "Sarah Mitchell",
-      relationship: "Mariem's Best Friend",
+      quote: "حتى تقوليلي شنو قالو صحاباتك حول علاقتنا",
+      author: "",
+      relationship: "",
       color: "from-rose-400 to-pink-500"
-    },
-    {
-      quote: "I've never seen two people more perfect for each other. Moussab brings out the best in Mariem, and vice versa. True soulmates.",
-      author: "Michael Chen",
-      relationship: "Moussab's Brother",
-      color: "from-purple-400 to-pink-500"
-    },
-    {
-      quote: "Their relationship is built on friendship, respect, and genuine admiration for each other. It's beautiful to witness.",
-      author: "Dr. Patricia Williams",
-      relationship: "Family Friend",
-      color: "from-blue-400 to-purple-500"
-    },
-    {
-      quote: "Mariem and Moussab have this incredible ability to make everyone feel welcome and loved. Their home is filled with laughter and warmth.",
-      author: "Rebecca Thompson",
-      relationship: "Colleague & Friend",
-      color: "from-teal-400 to-blue-500"
-    },
-    {
-      quote: "In 30 years of marriage, I recognize true love when I see it. These two have something special that will last a lifetime.",
-      author: "Robert & Linda Harrison",
-      relationship: "Mariem's Grandparents",
-      color: "from-amber-400 to-orange-500"
-    },
-    {
-      quote: "They balance each other perfectly - Mariem's creativity and Moussab's steady nature create the most beautiful harmony.",
-      author: "David Rodriguez",
-      relationship: "Mutual Friend",
-      color: "from-green-400 to-teal-500"
     }
   ];
 

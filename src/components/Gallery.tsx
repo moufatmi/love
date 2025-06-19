@@ -1,28 +1,32 @@
 import React, { useState } from 'react';
 import { X, ChevronLeft, ChevronRight } from 'lucide-react';
+import pic1 from '../asstets/pic1.jpg';
+import pic2 from '../asstets/pic2.jpg';
+import pic3 from '../asstets/pic3.jpg';
+import pic4 from '../asstets/pic4.jpg';
 
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
 
   const images = [
     {
-      src: require('../asstets/pic1.jpg'),
-      alt: 'Picture 1',
+      src: pic1,
+      alt: 'Special moment 1',
       caption: 'A special moment together'
     },
     {
-      src: require('../asstets/pic2.jpg'),
-      alt: 'Picture 2',
+      src: pic2,
+      alt: 'Special moment 2',
       caption: 'Cherished memory'
     },
     {
-      src: require('../asstets/pic3.jpg'),
-      alt: 'Picture 3',
+      src: pic3,
+      alt: 'Special moment 3',
       caption: 'Unforgettable day'
     },
     {
-      src: require('../asstets/pic4.jpg'),
-      alt: 'Picture 4',
+      src: pic4,
+      alt: 'Special moment 4',
       caption: 'Captured happiness'
     }
   ];

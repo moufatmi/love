@@ -1,5 +1,5 @@
 import React from 'react';
-import { Heart, Mail, Phone } from 'lucide-react';
+import { Heart, Mail } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -20,18 +20,14 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row items-center justify-center gap-8 mb-8">
             <div className="flex items-center gap-3">
               <Mail className="w-5 h-5 text-rose-400" />
-              <span className="text-gray-300">mariem.moussab.love@example.com</span>
-            </div>
-            <div className="flex items-center gap-3">
-              <Phone className="w-5 h-5 text-rose-400" />
-              <span className="text-gray-300">+1 (555) 123-4567</span>
+              <span className="text-gray-300">mariemoussab@gmail.com</span>
             </div>
           </div>
           
           <div className="border-t border-gray-700 pt-8">
             <div className="flex flex-col md:flex-row items-center justify-between gap-4">
               <p className="text-gray-400 text-sm">
-                © 2024 Mariem & Moussab. Made with love and endless cups of coffee.
+                © 2025 Mariem & Moussab. Made with love and endless cups of coffee.
               </p>
               <div className="flex items-center gap-2">
                 <Heart className="w-4 h-4 text-rose-400 fill-current animate-pulse" />

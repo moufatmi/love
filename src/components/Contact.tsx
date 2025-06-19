@@ -53,27 +53,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <div className="font-semibold text-gray-800">Email</div>
-                      <div className="text-gray-600">mariem.moussab.love@example.com</div>
-                    </div>
-                  </div>
-                  
-                  <div className="flex items-center gap-4">
-                    <div className="w-12 h-12 bg-gradient-to-br from-purple-400 to-pink-500 rounded-full flex items-center justify-center">
-                      <Phone className="w-6 h-6 text-white" />
-                    </div>
-                    <div>
-                      <div className="font-semibold text-gray-800">Phone</div>
-                      <div className="text-gray-600">+1 (555) 123-4567</div>
-                    </div>
-                  </div>
-                  
-                  <div className="flex items-center gap-4">
-                    <div className="w-12 h-12 bg-gradient-to-br from-blue-400 to-purple-500 rounded-full flex items-center justify-center">
-                      <MapPin className="w-6 h-6 text-white" />
-                    </div>
-                    <div>
-                      <div className="font-semibold text-gray-800">Address</div>
-                      <div className="text-gray-600">New York, NY</div>
+                      <div className="text-gray-600">mariemoussab@gmail.com</div>
                     </div>
                   </div>
                 </div>

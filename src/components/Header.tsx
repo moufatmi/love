@@ -33,12 +33,12 @@ const Header = () => {
             <span className={`font-serif text-xl font-bold transition-colors duration-300 ${
               isScrolled ? 'text-gray-800' : 'text-white'
             }`}>
-              Emma & James
+              Mariem & Moussab
             </span>
           </div>
           
           <div className="hidden md:flex items-center gap-8">
-            {['About Us', 'Timeline', 'Gallery', 'Quotes', 'Contact'].map((item) => (
+            {['About Us', 'Gallery', 'Quotes', 'Contact'].map((item) => (
               <button
                 key={item}
                 onClick={() => scrollToSection(item.toLowerCase().replace(' ', '-'))}

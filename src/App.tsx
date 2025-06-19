@@ -2,7 +2,6 @@ import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import AboutUs from './components/AboutUs';
-import Timeline from './components/Timeline';
 import Gallery from './components/Gallery';
 import Quotes from './components/Quotes';
 import Contact from './components/Contact';
@@ -14,7 +13,6 @@ function App() {
       <Header />
       <Hero />
       <AboutUs />
-      <Timeline />
       <Gallery />
       <Quotes />
       <Contact />

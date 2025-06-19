@@ -31,7 +31,7 @@ const Hero = () => {
         <div className="space-y-8 animate-fade-in">
           <div className="space-y-4">
             <h1 className="text-5xl md:text-7xl font-serif font-bold leading-tight">
-              Emma <span className="text-rose-200">&</span> James
+              Mariem <span className="text-rose-200">&</span> Moussab
             </h1>
             <p className="text-xl md:text-2xl font-light tracking-wide">
               A love story written in the stars
@@ -40,7 +40,7 @@ const Hero = () => {
           
           <div className="flex items-center justify-center gap-3 text-lg md:text-xl">
             <Calendar className="w-6 h-6" />
-            <span>Together since June 14, 2019</span>
+            <span>Together since August 18, 2023</span>
           </div>
           
           <div className="space-y-6">

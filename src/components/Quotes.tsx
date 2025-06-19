@@ -4,15 +4,15 @@ import { Quote, Heart } from 'lucide-react';
 const Quotes = () => {
   const testimonials = [
     {
-      quote: "Watching Emma and James together is like witnessing pure magic. Their love radiates joy and inspires everyone around them.",
+      quote: "Watching Mariem and Moussab together is like witnessing pure magic. Their love radiates joy and inspires everyone around them.",
       author: "Sarah Mitchell",
-      relationship: "Emma's Best Friend",
+      relationship: "Mariem's Best Friend",
       color: "from-rose-400 to-pink-500"
     },
     {
-      quote: "I've never seen two people more perfect for each other. James brings out the best in Emma, and vice versa. True soulmates.",
+      quote: "I've never seen two people more perfect for each other. Moussab brings out the best in Mariem, and vice versa. True soulmates.",
       author: "Michael Chen",
-      relationship: "James's Brother",
+      relationship: "Moussab's Brother",
       color: "from-purple-400 to-pink-500"
     },
     {
@@ -22,7 +22,7 @@ const Quotes = () => {
       color: "from-blue-400 to-purple-500"
     },
     {
-      quote: "Emma and James have this incredible ability to make everyone feel welcome and loved. Their home is filled with laughter and warmth.",
+      quote: "Mariem and Moussab have this incredible ability to make everyone feel welcome and loved. Their home is filled with laughter and warmth.",
       author: "Rebecca Thompson",
       relationship: "Colleague & Friend",
       color: "from-teal-400 to-blue-500"
@@ -30,11 +30,11 @@ const Quotes = () => {
     {
       quote: "In 30 years of marriage, I recognize true love when I see it. These two have something special that will last a lifetime.",
       author: "Robert & Linda Harrison",
-      relationship: "Emma's Grandparents",
+      relationship: "Mariem's Grandparents",
       color: "from-amber-400 to-orange-500"
     },
     {
-      quote: "They balance each other perfectly - Emma's creativity and James's steady nature create the most beautiful harmony.",
+      quote: "They balance each other perfectly - Mariem's creativity and Moussab's steady nature create the most beautiful harmony.",
       author: "David Rodriguez",
       relationship: "Mutual Friend",
       color: "from-green-400 to-teal-500"
@@ -50,7 +50,7 @@ const Quotes = () => {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-rose-400 to-pink-500 mx-auto rounded-full"></div>
           <p className="text-gray-600 mt-6 text-lg max-w-2xl mx-auto">
-            What friends and family say about Emma and James's beautiful love story.
+            What friends and family say about Mariem and Moussab's beautiful love story.
           </p>
         </div>
         

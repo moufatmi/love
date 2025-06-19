@@ -6,34 +6,24 @@ const Gallery = () => {
 
   const images = [
     {
-      src: "https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=800",
-      alt: "Romantic couple walking on beach at sunset",
-      caption: "Our first vacation together in Santorini"
+      src: require('../asstets/pic1.jpg'),
+      alt: 'Picture 1',
+      caption: 'A special moment together'
     },
     {
-      src: "https://images.pexels.com/photos/1440727/pexels-photo-1440727.jpeg?auto=compress&cs=tinysrgb&w=800",
-      alt: "Couple sharing intimate moment",
-      caption: "Anniversary dinner at our favorite restaurant"
+      src: require('../asstets/pic2.jpg'),
+      alt: 'Picture 2',
+      caption: 'Cherished memory'
     },
     {
-      src: "https://images.pexels.com/photos/1128317/pexels-photo-1128317.jpeg?auto=compress&cs=tinysrgb&w=800",
-      alt: "Happy couple in nature",
-      caption: "Hiking adventure in the mountains"
+      src: require('../asstets/pic3.jpg'),
+      alt: 'Picture 3',
+      caption: 'Unforgettable day'
     },
     {
-      src: "https://images.pexels.com/photos/1024984/pexels-photo-1024984.jpeg?auto=compress&cs=tinysrgb&w=800",
-      alt: "Couple dancing",
-      caption: "Dancing under the stars"
-    },
-    {
-      src: "https://images.pexels.com/photos/1024989/pexels-photo-1024989.jpeg?auto=compress&cs=tinysrgb&w=800",
-      alt: "Romantic picnic",
-      caption: "Sunday picnic in Central Park"
-    },
-    {
-      src: "https://images.pexels.com/photos/1024998/pexels-photo-1024998.jpeg?auto=compress&cs=tinysrgb&w=800",
-      alt: "Couple laughing together",
-      caption: "Laughter is our love language"
+      src: require('../asstets/pic4.jpg'),
+      alt: 'Picture 4',
+      caption: 'Captured happiness'
     }
   ];
 
